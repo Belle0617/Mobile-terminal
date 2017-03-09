@@ -1,0 +1,1417 @@
+@charset "utf-8";
+body{
+	position: relative;
+	width:100%;
+	height:100%;
+}
+/*主页*/
+
+.body-main {
+	width: 7.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+
+/*头部*/
+
+.body-main header {
+	width: 7.5rem;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+
+/*头部标题设置*/
+
+.body-main header .title {
+	width: 7.5rem;
+	height: 0.92rem;
+	background-color: #f0f0f0;
+	margin: 0 auto;
+}
+
+.body-main header .title .title-content {
+	width: 7.1rem;
+	height: 0.6rem;
+	position: relative;
+	margin: 0 auto;
+	top: 0.16rem;
+}
+
+.body-main header .title .title-content .logo {
+	width: 1.56rem;
+	height: 0.37rem;
+	background: url('../images/logo.png');
+	background-size: contain;
+	position: absolute;
+	top: 19%;
+}
+
+.body-main header .title .title-content .icon1 {
+	width: 0.6rem;
+	height: 0.6rem;
+	background: url('../images/ico_btn1.png');
+	background-size: contain;
+	position: absolute;
+	right: 1rem;
+}
+
+.body-main header .title .title-content .icon2 {
+	width: 0.6rem;
+	height: 0.6rem;
+	background: url('../images/ico_btn2_hov.png');
+	background-size: contain;
+	position: absolute;
+	right: 0;
+}
+
+/*banner图设置*/
+.body-main header .swiper-container {
+	width: 7.5rem;
+	height: 3.01rem;
+	background-color: #fff;
+}
+
+.body-main header .swiper-container .swiper-wrapper .swiper-slide img {
+	width: 7.5rem;
+	height: 3.01rem;
+}
+
+
+/*主题内容*/
+
+.body-main main {
+	width: 7.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*1.导航栏*/
+.body-main main nav {
+	width: 7.5rem;
+	height: 2rem;
+	background-color: #f6f6f6;
+}
+
+.body-main main nav ul {
+	width: 7.5rem;
+	height: 1.7rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 0.3rem;
+	text-align: center;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.body-main main nav ul li {
+	width: 0.9rem;
+	height: 1.7rem;
+	flex: 1;
+	text-align: center;
+}
+
+.body-main main nav ul li img {
+	width: 0.9rem;
+	height: 0.9rem;
+}
+
+.body-main main nav ul li p {
+	font-size: 0.25rem;
+	line-height: 0.6rem;
+}
+
+
+/*2.留学头条*/
+
+.body-main main .main-headline {
+	width: 7.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+/*留学头条：标题部分*/
+
+.body-main main .main-headline .main-headline-title {
+	width: 7.5rem;
+	height: 0.84rem;
+	position: relative;
+	background-color: #fff;
+}
+
+.body-main main .main-headline .main-headline-title img {
+	width: 1.48rem;
+	height: 0.35rem;
+	position: absolute;
+	left: 3%;
+	top: 0.25rem;
+}
+
+.body-main main .main-headline .main-headline-title span {
+	font-size: 0.3rem;
+	line-height: 0.84rem;
+	font-weight: bolder;
+	padding-left: 24%;
+}
+.body-main main .main-headline .main-headline-title ul{
+	width: 5.7rem;
+	height: 0.35rem;
+	position: absolute;
+	top: 0.25rem;
+	left:1.8rem;
+	overflow: hidden;
+}
+.body-main main .main-headline .main-headline-title ul li{
+	width: 5.7rem;
+	height: 0.35rem;
+	font-size: 0.3rem;
+	line-height: 0.35rem;
+	font-weight: bolder;
+}
+
+
+/*留学头条：内容部分*/
+
+.body-main main .main-headline .main-headeline-content {
+	width: 7.5rem;
+	height: 4rem;
+	background-color: #f6f6f6;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding-top: 0.31rem;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content1 {
+	width: 7.5rem;
+	height: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content1 li {
+	width: 2.38rem;
+	height: 2rem;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding-top: 0.3rem;
+	position: relative;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content1 li:nth-of-type(1) {
+	background: url('../images/bg-block-1.jpg') no-repeat;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content1 li:nth-of-type(2) {
+	background: url('../images/bg-block-2.jpg') no-repeat;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content1 li:nth-of-type(3) {
+	background: url('../images/bg-block-3.jpg') no-repeat;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content1 li div {
+	width: 2.1rem;
+	height: 0.38rem;
+	border-radius: 0.38rem;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	left: -16%;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content1 li div span {
+	box-sizing: border-box;
+	padding-left: 0.5rem;
+	color: #fff;
+	font-size: 0.28rem;
+	line-height: 0.38rem;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content1 li p:nth-of-type(1) {
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.4rem;
+	padding: 0.6rem 0 0 0.12rem;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content1 li p:nth-of-type(2) {
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.4rem;
+	padding-left: 0.12rem;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content2 {
+	width: 7.5rem;
+	height: 1.15rem;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top: 0.23rem;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content2 li {
+	width: 3.66rem;
+	height: 1.15rem;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content2 li:nth-of-type(1) {
+	background: url('../images/bg-block-4.jpg') no-repeat;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content2 li:nth-of-type(2) {
+	background: url('../images/bg-block-5.jpg') no-repeat;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content2 li h2 {
+	font-size: 0.29rem;
+	color: #fff;
+	line-height: 0.65rem;
+	padding-left: 0.12rem;
+}
+
+.body-main main .main-headline .main-headeline-content .main-headeline-content2 li p {
+	font-size: 0.24rem;
+	color: #fff;
+	padding-left: 0.12rem;
+}
+
+
+/*3.留学目的地*/
+
+.body-main main .main-destination {
+	width: 7.5rem;
+	height: 6.3rem;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+
+.body-main main .main-destination .content {
+	width: 7.5rem;
+	height: 6rem;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+
+/*留学目的地：标题部分*/
+
+.body-main main .main-destination .content .header {
+	width: 7.1rem;
+	height: 0.8rem;
+	position: relative;
+	margin: 0 auto;
+}
+
+.body-main main .main-destination .content .header .icon-destination {
+	width: 0.44rem;
+	height: 0.4rem;
+	top: 0.2rem;
+	position: absolute;
+}
+
+.body-main main .main-destination .content .header .title {
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.6rem;
+}
+
+.body-main main .main-destination .content .header .icon-advisory {
+	width: 0.31rem;
+	height: 0.26rem;
+	position: absolute;
+	right: 1.12rem;
+	top: 0.27rem;
+}
+
+.body-main main .main-destination .content .header .advisory {
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	position: absolute;
+	right: 0rem;
+	color: #ff4f38;
+	top: 0.2rem;
+}
+
+
+/*留学目的地：内容部分*/
+
+.body-main main .main-destination .content .swiper-container {
+	width: 7.5rem;
+	height: 5.2rem;
+}
+
+.body-main main .main-destination .content .swiper-container .swiper-wrapper {
+	width: 7.5rem;
+	height: 5.2rem
+}
+
+.body-main main .main-destination .content .swiper-container .swiper-wrapper .swiper-slide {
+	width: 7.5rem;
+	height: 5.2rem
+}
+
+.body-main main .main-destination .content .national-row1 {
+	width: 7.1rem;
+	height: 1.9rem;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	position: relative;
+	top: 0.5rem;
+}
+
+.body-main main .main-destination .content .national-row1 li {
+	height: 1.9rem;
+}
+
+.body-main main .main-destination .content .national-row1 li img {
+	width: 1.2rem;
+	height: 1.2rem;
+}
+
+.body-main main .main-destination .content .national-row1 li span {
+	display: block;
+	font-size: 0.24rem;
+	line-height: 0.6rem;
+	text-align: center;
+}
+
+.body-main main .main-destination .content .national-row2 {
+	width: 7.1rem;
+	height: 1.9rem;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	position: relative;
+	top: 0.7rem;
+}
+
+.body-main .body-main .body-main main .main-destination .content .national-row2 li {
+	height: 1.9rem;
+}
+
+.body-main main .main-destination .content .national-row2 li img {
+	width: 1.2rem;
+	height: 1.2rem;
+}
+
+.body-main main .main-destination .content .national-row2 li span {
+	display: block;
+	font-size: 0.24rem;
+	line-height: 0.6rem;
+	text-align: center;
+}
+
+
+/*4.热门留学院校*/
+
+.body-main main .main-hot {
+	width: 7.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+
+/*热门留学院校：标题部分*/
+
+.body-main main .main-hot .header {
+	width: 7.1rem;
+	height: 0.84rem;
+	position: relative;
+	margin: 0 auto;
+}
+
+.body-main main .main-hot .header .hot-icon {
+	width: 0.44rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 0.2rem;
+}
+
+.body-main main .main-hot .header .title {
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.6rem;
+}
+
+.body-main main .main-hot .header .icon-advisory {
+	width: 0.31rem;
+	height: 0.26rem;
+	position: absolute;
+	right: 1.12rem;
+	top: 0.27rem;
+}
+
+.body-main main .main-hot .header .advisory {
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	position: absolute;
+	top: 0.2rem;
+	right: 0rem;
+	color: #ff4f38;
+}
+
+
+/*热门留学院校：导航部分*/
+
+.body-main main .main-hot .nav {
+	width: 7.5rem;
+	height: 0.9rem;
+	display: flex;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d2d2d2;
+	justify-content: flex-start;
+}
+
+.body-main main .main-hot .nav li {
+	width: 1.5rem;
+	height: 0.9rem;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 0.28rem;
+	line-height: 0.9rem;
+	color: #868686;
+}
+/*热门留学院校：内容部分*/
+.body-main main .main-hot .hot-content{
+	width:7.5rem;
+	margin:0 auto;
+	overflow: hidden;
+}
+.body-main main .main-hot .hot-content .content {
+	width: 7.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.body-main main .main-hot .hot-content .content .content-show {
+	width: 7.5rem;
+	height: 4.68rem;
+}
+
+.body-main main .main-hot .hot-content .content .content-hidden {
+	width: 7.5rem;
+	height: 6.24rem;
+	display: none;
+}
+
+.body-main main .main-hot .hot-content .content ul li {
+	width: 7.5rem;
+	height: 1.56rem;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	box-sizing: border-box;
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+/*奇数li标签设置*/
+
+.body-main main .main-hot .hot-content .content ul li:nth-of-type(2n-1) span:nth-of-type(1) {
+	width: 0.4rem;
+	height: 0.4rem;
+	background-color: #fe3c24;
+	color: #fff;
+	font-size: 0.28rem;
+	border-radius: 0.06rem;
+	font-weight: bolder;
+	line-height: 0.4rem;
+	text-align: center;
+	position: absolute;
+	top: 0.4rem;
+	left: 0.2rem;
+}
+
+.body-main main .main-hot .hot-content .content ul li:nth-of-type(2n-1) span:nth-of-type(3) {
+	width: 1rem;
+	height: 0.4rem;
+	box-sizing: border-box;
+	border: #78d07b 1px solid;
+	color: #78d07b;
+	font-size: 0.28rem;
+	border-radius: 0.06rem;
+	font-weight: bolder;
+	line-height: 0.4rem;
+	text-align: center;
+	position: absolute;
+	top: 0.4rem;
+	left: 4rem;
+}
+
+
+/*li标签共用*/
+
+.body-main main .main-hot .hot-content .content ul li span:nth-of-type(2) {
+	box-sizing: border-box;
+	padding-left: 0.7rem;
+	position: absolute;
+	font-size: 0.3rem;
+	font-weight: bolder;
+	line-height: 0.4rem;
+	top: 0.4rem;
+}
+
+.body-main main .main-hot .hot-content .content ul li p {
+	width: 7.5rem;
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+	position: absolute;
+	top: 0.8rem;
+	font-size: 0.2rem;
+	line-height: 0.76rem;
+	color: #c4c1c1;
+	letter-spacing: 0.04rem
+}
+
+.body-main main .main-hot .hot-content .content ul li img {
+	width: 0.2rem;
+	height: 0.36rem;
+	position: absolute;
+	right: 0;
+	top: 0.6rem;
+}
+
+
+/*偶数li标签设置*/
+
+.body-main main .main-hot .hot-content .content ul li:nth-of-type(2n) span:nth-of-type(1) {
+	width: 0.4rem;
+	height: 0.4rem;
+	background-color: #ff8b20;
+	color: #fff;
+	font-size: 0.28rem;
+	border-radius: 0.06rem;
+	font-weight: bolder;
+	line-height: 0.4rem;
+	text-align: center;
+	position: absolute;
+	top: 0.4rem;
+	left: 0.2rem;
+}
+
+.body-main main .main-hot .hot-content .content ul li:nth-of-type(2n) span:nth-of-type(3) {
+	width: 1rem;
+	height: 0.4rem;
+	box-sizing: border-box;
+	border: #fe3c24 1px solid;
+	color: #fe3c24;
+	font-size: 0.28rem;
+	border-radius: 0.06rem;
+	font-weight: bolder;
+	line-height: 0.4rem;
+	text-align: center;
+	position: absolute;
+	top: 0.4rem;
+	left: 4rem;
+}
+
+
+/*加载更多*/
+
+.body-main main .main-hot .hot-content .content .loadMore {
+	width: 7.5rem;
+	height: 1.6rem;
+	position: relative;
+	margin: 0 auto;
+}
+
+.body-main main .main-hot .hot-content .content .loadMore span {
+	width: 7rem;
+	height: 0.75rem;
+	box-sizing: border-box;
+	border: 1px solid #cecece;
+	text-align: center;
+	font-size: 0.34rem;
+	line-height: 0.76rem;
+	position: absolute;
+	top: 0.38rem;
+	left: 0.23rem;
+}
+/*热门留学院校:导航点击切换*/
+.hover{
+	color:#fe3d25;
+    border-bottom:1px solid #fe3d25;
+}
+
+
+/*5.优选留学方案*/
+
+.body-main main .main-program {
+	width: 7.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding-top: 0.3rem;
+	background-color: #f5f5f5;
+}
+
+.body-main main .main-program .banner {
+	width: 7.5rem;
+	height: 1.45rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.body-main main .main-program .banner li {
+	position: relative;
+	width: 3.75rem;
+	height: 1.45rem;
+}
+
+.body-main main .main-program .banner li:nth-of-type(1) {
+	background: url('../images/back_btn1.png');
+}
+
+.body-main main .main-program .banner li:nth-of-type(2) {
+	background: url('../images/back_btn2.png');
+}
+
+.body-main main .main-program .banner li img {
+	width: 0.77rem;
+	height: 0.76rem;
+	position: absolute;
+	top: 0.34rem;
+	left: 0.3rem;
+}
+
+.body-main main .main-program .banner li span:nth-of-type(1) {
+	font-size: 0.32rem;
+	color: #fff;
+	position: absolute;
+	top: 0.3rem;
+	left: 1.2rem;
+}
+
+.body-main main .main-program .banner li span:nth-of-type(2) {
+	font-size: 0.28rem;
+	color: #fff;
+	position: absolute;
+	top: 0.9rem;
+	left: 1.2rem;
+}
+
+
+/*优选留学方案：标题部分*/
+
+.body-main main .main-program .header {
+	width: 7.5rem;
+	height: 1rem;
+	background-color: #fff;
+	margin: 0.3rem auto 0;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding-top: 0.3rem;
+}
+
+.body-main main .main-program .header .header-content {
+	width: 7.5rem;
+	height: 0.4rem;
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+}
+
+.body-main main .main-program .header .header-content .program-icon {
+	width: 0.44rem;
+	height: 0.4rem;
+	position: absolute;
+}
+
+.body-main main .main-program .header .header-content .title {
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	position: absolute;
+	left: 0.7rem;
+}
+
+.body-main main .main-program .header .header-content .icon-list {
+	width: 0.36rem;
+	height: 0.2rem;
+	position: absolute;
+	right: 0rem;
+	top: 0.1rem;
+}
+/*优选留学方案：下拉内容部分*/
+.body-main main .main-program .content{
+	width:7.5rem;
+	height:3.98;
+	margin:0 auto;
+	overflow: hidden;
+}
+.body-main main .main-program .content ul{
+	width:7.5rem;
+	height:3.6rem;
+	background-color: #f6f6f6;
+}
+.body-main main .main-program .content ul li{
+	width:3.75rem;
+	height:0.9rem;
+	float: left;
+	box-sizing: border-box;
+	border-bottom: 1px solid #eee;
+	position: relative;
+}
+.body-main main .main-program .content ul li span:nth-of-type(1){
+	width:0.4rem;
+	height:0.4rem;
+	background-color: #fe4d37;
+	color:#fff;
+	font-size: 0.3rem;
+	position: absolute;
+	border-radius: 0.06rem;
+	text-align: center;
+	line-height: 0.4rem;
+	top:0.25rem;
+	left:0.2rem;
+
+}
+.body-main main .main-program .content ul li span:nth-of-type(2){
+	font-size: 0.24rem;
+	position: absolute;
+	line-height: 0.4rem;
+	top:0.25rem;
+	left:0.7rem;
+
+}
+
+.body-main main .main-program .bottom-row{
+	width:7.5rem;
+	height:0.3rem;	
+	border-top: 2px solid #fff;
+}
+
+
+/*6.留学必看*/
+
+.body-main main .main-mustSee {
+	width: 7.5rem;
+	margin: 0rem auto;
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+
+.body-main main .main-mustSee .header {
+	width: 7.5rem;
+	height: 0.8rem;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding-top: 0.2rem;
+	padding-left: 0.2rem;
+}
+
+.body-main main .main-mustSee .header .header-content {
+	width: 7.1rem;
+	height: 0.4rem;
+	position: relative;
+	margin: 0 auto;
+}
+
+.body-main main .main-mustSee .header .header-content .mustSee-icon {
+	width: 0.44rem;
+	height: 0.4rem;
+	position: absolute;
+}
+
+.body-main main .main-mustSee .header .header-content .title {
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	position: absolute;
+	left: 0.6rem;
+}
+
+.body-main main .main-mustSee .header .header-content .advisory-icon {
+	width: 0.31rem;
+	height: 0.26rem;
+	position: absolute;
+	right: 1.12rem;
+	top: 0.07rem;
+}
+
+.body-main main .main-mustSee .header .header-content .advisory {
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	position: absolute;
+	right: 0;
+	color: #ff4f38;
+}
+
+
+/*留学必看：内容部分*/
+
+.body-main main .main-mustSee .content {
+	width: 7.5rem;
+	height: 4.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	background-color: #fff;
+}
+
+.body-main main .main-mustSee .content li {
+	width: 7.5rem;
+	height: 0.9rem;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.body-main main .main-mustSee .content li:nth-of-type(2n-1) span:nth-of-type(1) {
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	border-radius: 0.08rem;
+	background-color: #ff8b20;
+	top: 0.25rem;
+	left: 0.2rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.4rem;
+}
+
+.body-main main .main-mustSee .content li span:nth-of-type(2) {
+	font-size: 0.24rem;
+	position: absolute;
+	left: 0.7rem;
+	top: 0.25rem;
+	line-height: 0.4rem;
+}
+
+.body-main main .main-mustSee .content li img {
+	width: 0.2rem;
+	height: 0.36rem;
+	position: absolute;
+	top: 0.27rem;
+	right: 0;
+}
+
+.body-main main .main-mustSee .content li:nth-of-type(2n) span:nth-of-type(1) {
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	border-radius: 0.08rem;
+	background-color: #fe3c24;
+	top: 0.25rem;
+	left: 0.2rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.4rem;
+}
+
+
+/*留学必看：一对一定制留学方案部分*/
+
+.body-main main .main-mustSee .program-btn {
+	width: 7.5rem;
+	height: 1.5rem;
+	position: relative;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.body-main main .main-mustSee .program-btn span {
+	width: 4.1rem;
+	height: 0.7rem;
+	position: absolute;
+	top: 0.4rem;
+	left: 1.7rem;
+	box-sizing: border-box;
+	border: 1px solid #ff961f;
+	color: #ff961f;
+	font-size: 0.28rem;
+	line-height: 0.7rem;
+	text-align: center;
+}
+
+
+/*7.留学精彩专题*/
+
+.body-main main .main-report {
+	width: 7.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+
+
+/*留学精彩专题第一部分*/
+
+.body-main main .main-report .part1 {
+	width: 7.5rem;
+	height: 6.5rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 0.3rem;
+}
+
+
+/*留学精彩专题第一部分：标题*/
+
+.body-main main .main-report .part1 .part1-header {
+	width: 7.5rem;
+	height: 1.1rem;
+	background-color: #fff;
+}
+
+.body-main main .main-report .part1 .part1-header .header-content {
+	width: 7.1rem;
+	height: 0.4rem;
+	position: relative;
+	margin: 0 auto;
+	top: 0.2rem;
+}
+
+.body-main main .main-report .part1 .part1-header .header-content .report-icon {
+	width: 0.44rem;
+	height: 0.4rem;
+	position: absolute;
+}
+
+.body-main main .main-report .part1 .part1-header .header-content .title {
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	padding-left: 0.6rem;
+	position: absolute;
+}
+
+.body-main main .main-report .part1 .part1-header .header-content .icon-advisory {
+	width: 0.31rem;
+	height: 0.26rem;
+	position: absolute;
+	right: 1.12rem;
+	top: 0.07rem;
+}
+
+.body-main main .main-report .part1 .part1-header .header-content .advisory {
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	position: absolute;
+	right: 0;
+	color: #ff4f38;
+}
+
+
+/*留学精彩专题第一部分：内容*/
+
+.body-main main .main-report .part1 .part1-img {
+	width: 7.5rem;
+	height: 4.8rem;
+	background-color: #fff;
+	margin: 0 auto;
+	position: relative;
+}
+
+.body-main main .main-report .part1 .part1-img span:nth-of-type(1) {
+	width: 2.9rem;
+	height: 2.9rem;
+	position: absolute;
+	left: 0.15rem;
+	background: url('../images/index_img.jpg') no-repeat;
+	background-size: contain;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.6rem;
+}
+
+.body-main main .main-report .part1 .part1-img span:nth-of-type(2) {
+	width: 4.14rem;
+	height: 1.36rem;
+	position: absolute;
+	right: 0.15rem;
+	background: url('../images/index_img1.jpg') no-repeat;
+	background-size: contain;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 1.36rem;
+	box-sizing: border-box;
+	padding-left: 1.4rem;
+}
+
+.body-main main .main-report .part1 .part1-img span:nth-of-type(3) {
+	width: 1.97rem;
+	height: 1.36rem;
+	position: absolute;
+	left: 3.2rem;
+	top: 1.56rem;
+	background: url('../images/index_img2.jpg') no-repeat;
+	background-size: contain;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 0.4rem;
+	box-sizing: border-box;
+	padding: 0.3rem 0.3rem 0 0.3rem;
+}
+
+.body-main main .main-report .part1 .part1-img span:nth-of-type(4) {
+	width: 1.97rem;
+	height: 1.36rem;
+	position: absolute;
+	right: 0.15rem;
+	top: 1.56rem;
+	background: url('../images/index_img3.jpg') no-repeat;
+	background-size: contain;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 0.4rem;
+	box-sizing: border-box;
+	padding: 0.3rem 0.1rem 0 0.6rem;
+}
+
+.body-main main .main-report .part1 .part1-img span:nth-of-type(5) {
+	width: 3.52rem;
+	height: 1.36rem;
+	position: absolute;
+	left: 0.15rem;
+	top: 3.1rem;
+	background: url('../images/index_img4.jpg') no-repeat;
+	background-size: contain;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 1.36rem;
+	text-align: center;
+}
+
+.body-main main .main-report .part1 .part1-img span:nth-of-type(6) {
+	width: 3.52rem;
+	height: 1.36rem;
+	position: absolute;
+	right: 0.15rem;
+	top: 3.1rem;
+	background: url('../images/index_img5.jpg') no-repeat;
+	background-size: contain;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 1.36rem;
+	text-align: center;
+}
+
+
+/*留学精彩专题第二部分*/
+
+.body-main main .main-report .part2 {
+	width: 7.5rem;
+	height: 4.8rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.body-main main .main-report .part2 .part2-header {
+	width: 7.5rem;
+	height: 1.1rem;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 0.36rem;
+	padding-top: 0.3rem;
+	background-color: #fff;
+	border-bottom: 1px solid #F5F5F5;
+}
+
+.body-main main .main-report .part2 ul {
+	width: 7.5rem;
+	height: 1.7rem;
+	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.body-main main .main-report .part2 ul li {
+	width: 3.75rem;
+	height: 1.7rem;
+	position: relative;
+}
+
+.body-main main .main-report .part2 ul li img {
+	width: 0.93rem;
+	height: 0.92rem;
+	position: absolute;
+	top: 0.5rem;
+	left: 0.35rem;
+}
+
+.body-main main .main-report .part2 ul li span:nth-of-type(1) {
+	font-size: 0.35rem;
+	position: absolute;
+	top: 0.5rem;
+	left: 1.45rem;
+	color: #fe3c24;
+}
+
+.body-main main .main-report .part2 ul li span:nth-of-type(2) {
+	font-size: 0.24rem;
+	position: absolute;
+	top: 1rem;
+	left: 1.45rem;
+	color: #9c9c9c;
+}
+/*留白*/
+.body-main main .bottom-bg{
+	width:7.5rem;
+	height:1.2rem;	
+}
+/*页脚*/
+.body-main footer{
+	width:7.5rem;
+	margin:0 auto;
+	overflow: hidden;
+	position: fixed;
+	bottom:0rem;
+	background-color: #fff;
+	z-index: 5;
+}
+.body-main footer div{
+	width:7.5rem;
+	margin:0 auto;
+	overflow: hidden;
+}
+.body-main footer div ul{
+	width:7.5rem;
+	height:1.2rem;
+	display: flex;
+	justify-content: flex-start;
+}
+.body-main footer div ul li{
+	width:1.875rem;
+	text-align: center;
+	margin:0 auto;
+	box-sizing: border-box;
+	padding-top: 0.1rem;
+	color:#9c9c9c;
+}
+
+.body-main footer div ul li i{
+	font-size: 0.5rem!important;
+	line-height:0.55rem;
+}
+.body-main footer div ul li p{
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.6rem;
+}
+.body-main footer div ul li.on{
+	color:#fe3c24;
+}
+
+/*弹窗效果*/
+.prompt-main{
+	/*width:7.5rem;
+	height:19rem;*/
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index: 5;
+	top:0rem;
+	left:0rem;
+	background:rgba(0,0,0,0.3);
+}
+/*弹窗效果：窗口部分*/
+.prompt-main .prompt{
+	width:6.2rem;
+	height:4.9rem;
+	box-sizing: border-box;
+	padding-top: 0.2rem;
+	position: relative;
+	margin:0 auto;
+	top:25%;
+	background-color: #ff7701;
+}
+.prompt-main .prompt img{
+	width:0.54rem;
+	height:0.54rem;
+	position: absolute;
+	top:-0.27rem;
+	right:-0.27rem;
+}
+.prompt-main .prompt h2{
+	font-size: 0.38rem;
+	line-height: 0.62rem;
+	color: #fff;
+	text-align: center;
+}
+.prompt-main .prompt div{
+	width:4.9rem;
+	height:0.6rem;
+	background-color:#ffed74;
+	border-radius: 0.1rem;
+	margin:0 auto;
+	text-align: center;
+	position: absolute;
+	top:2.3rem;
+	left: 0.65rem;
+	font-size: 0.36rem;
+	line-height: 0.6rem; 
+}
+.prompt-main .prompt .num{
+	width:0.3rem;
+	height:0.3rem;
+	border-radius: 0.3rem;
+	background-color:#f53429;
+	border:1px solid #fff;
+	line-height: 0.3rem;
+	text-align: center;
+	color:#fff;
+	font-size: 0.16rem; 
+	position: absolute;
+	right:0.5rem;
+	top:2.15rem;
+}
+.prompt-main .prompt .telephone{
+	width:2.9rem;
+	height:0.56rem;
+	border-radius: 0.1rem;
+	background-color: #fff;
+	font-size: 0.28rem;
+	line-height: 0.56rem;
+	color: #c4c4c4;
+	box-sizing: border-box;
+	padding-left:0.1rem;
+	position: absolute;
+	top:3.3rem;
+	left:0.65rem;
+}
+.prompt-main .prompt .free{
+	width:1.7rem;
+	height:0.56rem;
+	background-color:#fe3c24;
+	border-radius: 0.1rem;
+	font-size: 0.34rem;
+	color: #FFF;
+	line-height: 0.56rem;
+	text-align: center;
+	position: absolute;
+	right: 0.65rem;
+	top:3.3rem; 
+}
+.prompt-main .prompt p{
+	font-size: 0.38rem;
+	line-height: 1rem;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left:1.2rem;
+	margin: 0 auto;
+}
+.prompt-main .prompt p span{
+	font-size: 0.5rem;
+}
+
+
+/*侧边栏*/
+.side-main{
+	width:2.5rem;
+	height:19rem;
+	position:fixed;
+	right:-2.5rem;
+	background-color: #242e30;
+}
+.side-main ul{
+	width:2.54rem;
+	height:2.44rem;	
+	display: flex;
+	flex-direction: column;
+}
+.side-main ul li{
+	width:2.54rem;
+	height:0.6rem;
+	border-bottom: 1px solid #fff;
+	color:#fff;
+	font-size: 0.3rem;
+	line-height: .6rem;
+	text-align: center;
+	font-weight: bolder;
+}
+.body-main header .title .title-content .icon2.change{
+	background: url('../images/ico_btn2.png') no-repeat;
+	background-size: 0.6rem 0.6rem;
+}
+
+/*页面两侧图标：指纹&电话*/
+.sideIcon-main{
+	width:100%;
+	height:1.09rem;
+	position: fixed;
+	bottom: 10%;
+}
+.sideIcon-main .fingerprint{
+	height:1.32rem;
+}
+.sideIcon-main .fingerprint .fingerprint-icon{
+	width:1.06rem;
+	height:1.09rem;
+	position: absolute;
+	left:0.1rem;
+	top:0.115rem;
+	z-index: 6;
+}
+.sideIcon-main .fingerprint .fingerprint-icon img{
+	width:1.06rem;
+	height:1.09rem;
+}
+.sideIcon-main .fingerprint .hidden{
+	height:0.77rem;
+	position: absolute;
+	top:0.27rem;
+	left:0.23rem
+}
+.sideIcon-main .fingerprint .hidden img{
+	width:0.77rem;
+	height:0.77rem;
+	position: absolute;	
+}
+.sideIcon-main .fingerprint .hidden img:nth-of-type(1){
+	z-index: 5;
+}
+.sideIcon-main .fingerprint .hidden img:nth-of-type(2){
+	z-index: 4;
+}
+.sideIcon-main .fingerprint .hidden img:nth-of-type(3){
+	z-index: 3;
+}
+.sideIcon-main .fingerprint .hidden img:nth-of-type(4){
+	z-index: 2;
+}
+.sideIcon-main .fingerprint .hidden img:nth-of-type(5){
+	z-index: 1;
+}
+.sideIcon-main .phone-icon{
+	width:0.76rem;
+	height:1.32rem;
+	position: absolute;
+	z-index: 6;
+	right:0.1rem;
+	top:0rem;
+}
+.sideIcon-main .phone-icon img:nth-of-type(1){
+	width:0.76rem;
+	height:1.32rem;
+	position: absolute;
+}
+/*.sideIcon-main .phone-icon img:nth-of-type(2){
+	width:0.54rem;
+	height:0.54rem;
+	position: absolute;
+	top:0.39rem;
+	left:0.11rem;	
+}*/
